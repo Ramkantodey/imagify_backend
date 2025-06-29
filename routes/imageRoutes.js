@@ -7,3 +7,4 @@ const router = express.Router();
 router.post('/generate-image', userAuth, generateImage);
 
 export default router;
+
